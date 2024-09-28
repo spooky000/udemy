@@ -24,11 +24,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	int32 MyInt {99};
+	FVector MyVector = FVector{-13430.0, -2350.0, 4056};
 
 	UPROPERTY(EditAnywhere)
-	float MyFloat {0.0001};
-
-	UPROPERTY(EditAnywhere)
-	bool MyBoolean {true};
+	float MyX {0};
 };
